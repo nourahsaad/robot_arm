@@ -48,7 +48,7 @@ $robot_data = $result->fetch_array(MYSQLI_ASSOC);
 <head>
    <style>
       body {
-      background-image: url("img/bg.jpg");
+      background-image: url("bg.jpg");
       }
       body {
       text-align: center;
