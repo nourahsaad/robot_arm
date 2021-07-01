@@ -90,5 +90,18 @@ $robot_data = $result->fetch_array(MYSQLI_ASSOC);
       <br>
       <button type="button">تشغيل</button>
    </form>
+  <script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "e9f71803-ebd7-4b47-ba32-2796cb860dcf", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "f544f26a-a218-439e-a15e-d3172e3149a2", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
 </body>
 </html>
