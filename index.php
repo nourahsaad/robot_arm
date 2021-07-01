@@ -92,7 +92,7 @@ $robot_data = $result->fetch_array(MYSQLI_ASSOC);
    </form>
   <script>
   window.watsonAssistantChatOptions = {
-      integrationID: "e9f71803-ebd7-4b47-ba32-2796cb860dcf", // The ID of this integration.
+      integrationID: "5afe50cf-4153-4d5d-b6e4-c33af04dc3d5", // The ID of this integration.
       region: "eu-gb", // The region your integration is hosted in.
       serviceInstanceID: "f544f26a-a218-439e-a15e-d3172e3149a2", // The ID of your service instance.
       onLoad: function(instance) { instance.render(); }
